@@ -1,0 +1,141 @@
+/* Estilo básico para la página */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /*background: url('fondo.png') no-repeat center center fixed; /* Cambia 'background-image.jpg' por el archivo de tu imagen */
+    background-size: cover;
+    color: #fff;
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 2.5rem;
+}
+
+/* Contenedor de la página */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro translúcido para mejorar la visibilidad */
+    border-radius: 10px;
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th,
+table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #0044cc;
+    color: white;
+}
+
+table td {
+    background-color: #333;
+}
+
+table tr:nth-child(even) {
+    background-color: #444;
+}
+
+/* Estilo para los formularios dentro de la tabla */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo de formulario con opacidad */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+form input[type="text"],
+form textarea,
+form select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    background-color: #555;
+    color: #fff;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+form button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+form .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+form .btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Mensajes de estado */
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #d9534f;
+    margin-top: 20px;
+}
+
+p.success {
+    color: #28a745;
+}
+
+p.no-incidencias {
+    font-size: 18px;
+    color: #ccc;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo de los botones */
+button, .btn-secondary {
+    transition: transform 0.3s ease;
+}
+
+button:hover, .btn-secondary:hover {
+    transform: scale(1.05);
+}

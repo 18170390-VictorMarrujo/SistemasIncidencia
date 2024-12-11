@@ -1,0 +1,150 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tabla de incidencias */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Formulario */
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Modal */
+#modalServicios {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    overflow: auto;
+}
+
+#modalServicios div {
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#modalServicios h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+#modalServicios ul {
+    list-style: none;
+    padding: 0;
+}
+
+#modalServicios li {
+    margin-bottom: 15px;
+}
+
+#modalServicios button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#modalServicios button:hover {
+    background-color: #c82333;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Mensajes */
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+}
+

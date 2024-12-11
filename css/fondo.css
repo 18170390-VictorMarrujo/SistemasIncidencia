@@ -1,0 +1,97 @@
+body {
+    /*background: url('fondo.png') no-repeat center center fixed;*/
+    background-size: cover;
+    overflow: hidden;
+}
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table thead {
+    background-color: #2565ea;
+    color: white;
+}
+
+table thead th {
+    padding: 10px;
+}
+
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+table tbody td {
+    padding: 10px;
+}
+
+/* Estilo para los botones */
+.btn {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary {
+    background-color: #2565ea;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.05);
+}
+
+.btn-warning {
+    background-color: #f1c40f;
+    color: white;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #d4ac0d;
+    transform: scale(1.05);
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
+
+/* Centrar la tabla en la página */
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
